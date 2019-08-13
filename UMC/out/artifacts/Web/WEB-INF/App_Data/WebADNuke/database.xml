@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webadnuke>
+    <providers provider="System">
+        <clear/>
+
+        <!--<add name="defaultDbProvider"  type="UMC.Data.Sql.SqlDbProvider" Prefix="dbo"  conString="jdbc:sqlserver://192.168.210.160:1433;databaseName=WebADNuke;" user="sa" password="sa"/>-->
+        <!--此地为UMCDB的数据连接配置，UMC的DEMO采用的是文件数据库，生产环境请换成服务器数据库，以提高效能-->
+        <add name="defaultDbProvider" type="UMC.Data.Sql.SQLIteDBProvider"/>
+
+    </providers>
+</webadnuke>

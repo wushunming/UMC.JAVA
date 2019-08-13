@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UMC.JAVA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/UMC.JAVA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
